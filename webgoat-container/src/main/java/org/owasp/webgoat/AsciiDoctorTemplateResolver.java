@@ -86,6 +86,8 @@ public class AsciiDoctorTemplateResolver extends TemplateResolver {
                     StringWriter writer = new StringWriter();
                     JavaExtensionRegistry extensionRegistry = asciidoctor.javaExtensionRegistry();
                     extensionRegistry.inlineMacro("webWolfLink", WebWolfMacro.class);
+                    extensionRegistry.inlineMacro("webGoatLink", WebWolfMacro.class);
+
 
                     asciidoctor.convert(new InputStreamReader(is), writer, createAttributes());
                     return new ByteArrayInputStream(writer.getBuffer().toString().getBytes(UTF_8));
