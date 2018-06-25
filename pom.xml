@@ -365,7 +365,7 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>i
+    </build>
 <!-- Jerry was here -->
    <pluginGroups>
      <pluginGroup>com.sonatype.clm</pluginGroup>
