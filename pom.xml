@@ -164,6 +164,8 @@
         <tomcat7-maven-plugin.version>2.3-SNAPSHOT</tomcat7-maven-plugin.version>
         <versioneye-maven-plugin.version>3.5.1</versioneye-maven-plugin.version>
         <wsdl4j.version>1.6.3</wsdl4j.version>
+	<clm.serverUrl>http://localhost:8070</clm.serverUrl>
+	<clm.applicationId>WebGoatApp</clm.applicationId>
     </properties>
 
     <modules>
@@ -183,11 +185,18 @@
             <url>http://www.demo.com:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
--->
+
     <distributionManagement>
         <repository>
             <id>maven-dev</id>
             <url>http://www.demo.com:8081/repository/maven-dev/</url>
+        </repository>
+    </distributionManagement>
+-->
+    <distributionManagement>
+        <repository>
+            <id>maven2-release</id>
+            <url>http://www.demo.com:8000/nexus/content/repositories/releases/</url>
         </repository>
     </distributionManagement>
 
@@ -356,6 +365,10 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+    </build>i
+<!-- Jerry was here -->
+   <pluginGroups>
+     <pluginGroup>com.sonatype.clm</pluginGroup>
+   </pluginGroups>
 
 </project>
