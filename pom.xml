@@ -164,7 +164,7 @@
         <tomcat7-maven-plugin.version>2.3-SNAPSHOT</tomcat7-maven-plugin.version>
         <versioneye-maven-plugin.version>3.5.1</versioneye-maven-plugin.version>
         <wsdl4j.version>1.6.3</wsdl4j.version>
-	   <clm.serverUrl>http://localhost:8070</clm.serverUrl>
+	   <clm.serverUrl>http://www.demo.com:8070</clm.serverUrl>
 	   <clm.applicationId>WebGoatApp</clm.applicationId>
     </properties>
 
@@ -366,9 +366,9 @@
             </plugin>
         </plugins>
     </build>
-<!-- Jerry was here -->
+<!-- Jerry was here
    <pluginGroups>
      <pluginGroup>com.sonatype.clm</pluginGroup>
    </pluginGroups>
-
+-->
 </project>
