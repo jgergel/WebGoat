@@ -1,6 +1,6 @@
 # WebGoat 8: A deliberately insecure Web Application
 
-[![DepShield Badge](https://depshield.sonatype.org/badges/jgergel/WebGoat/depshield.svg](https://depshield.github.io)
+[![DepShield Badge](https://depshield.sonatype.org/badges/jgergel/WebGoat/depshield.svg)](https://depshield.github.io)
 
 [![Build Status](https://travis-ci.org/WebGoat/WebGoat.svg?branch=develop)](https://travis-ci.org/WebGoat/WebGoat)
 [![Coverage Status](https://coveralls.io/repos/WebGoat/WebGoat/badge.svg?branch=develop&service=github)](https://coveralls.io/github/WebGoat/WebGoat?branch=master)
